@@ -9,6 +9,6 @@ end
 end
 def valid_move?(board, index)
   if board[index].to_i - 1 > 8 && board[index].to_i - 1 < 0
-    false
+    true
   end
 end
